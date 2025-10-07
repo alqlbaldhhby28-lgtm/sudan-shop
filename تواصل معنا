@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل معنا | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="glass">
+        <h1 class="ar">تواصل معنا</h1>
+        <h1 class="en">Contact Us</h1>
+        <nav>
+            <a href="index.html" class="ar">الرئيسية</a>
+            <a href="about.html" class="ar">من نحن</a>
+            <a href="courses.html" class="ar">الدورات</a>
+            <a href="articles.html" class="ar">المقالات</a>
+            <a href="login.html" class="ar">تسجيل / دخول</a>
+            <a href="contact.html" class="ar">تواصل معنا</a>
+
+            <a href="index.html" class="en">Home</a>
+            <a href="about.html" class="en">About Us</a>
+            <a href="courses.html" class="en">Courses</a>
+            <a href="articles.html" class="en">Articles</a>
+            <a href="login.html" class="en">Login</a>
+            <a href="contact.html" class="en">Contact</a>
+        </nav>
+        <button onclick="switchLanguage('ar')">العربية</button>
+        <button onclick="switchLanguage('en')">English</button>
+    </header>
+
+    <section class="glass">
+        <h2 class="ar">أرسل لنا رسالة</h2>
+        <h2 class="en">Send Us a Message</h2>
+        <form>
+            <input type="text" placeholder="الاسم / Name" style="margin-bottom:10px; width:100%; padding:10px; border-radius:10px; border:none;">
+            <input type="email" placeholder="البريد الإلكتروني / Email" style="margin-bottom:10px; width:100%; padding:10px; border-radius:10px; border:none;">
+            <textarea placeholder="رسالتك / Your Message" style="margin-bottom:10px; width:100%; padding:10px; border-radius:10px; border:none;"></textarea>
+            <button type="submit">إرسال / Send</button>
+        </form>
+    </section>
+</body>
+</html>
