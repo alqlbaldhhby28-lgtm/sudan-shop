@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدورات | Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="glass">
+        <h1 class="ar">الدورات التعليمية</h1>
+        <h1 class="en">Educational Courses</h1>
+        <nav>
+            <a href="index.html" class="ar">الرئيسية</a>
+            <a href="about.html" class="ar">من نحن</a>
+            <a href="courses.html" class="ar">الدورات</a>
+            <a href="articles.html" class="ar">المقالات</a>
+            <a href="login.html" class="ar">تسجيل / دخول</a>
+            <a href="contact.html" class="ar">تواصل معنا</a>
+
+            <a href="index.html" class="en">Home</a>
+            <a href="about.html" class="en">About Us</a>
+            <a href="courses.html" class="en">Courses</a>
+            <a href="articles.html" class="en">Articles</a>
+            <a href="login.html" class="en">Login</a>
+            <a href="contact.html" class="en">Contact</a>
+        </nav>
+        <button onclick="switchLanguage('ar')">العربية</button>
+        <button onclick="switchLanguage('en')">English</button>
+    </header>
+
+    <section class="glass">
+        <h2 class="ar">دورات متاحة</h2>
+        <h2 class="en">Available Courses</h2>
+        <ul class="ar">
+            <li>مهارات كتابة السيرة الذاتية</li>
+            <li>تطوير مهارات المقابلة الشخصية</li>
+            <li>التسويق الرقمي للباحثين عن عمل</li>
+        </ul>
+        <ul class="en">
+            <li>CV Writing Skills</li>
+            <li>Interview Skills Development</li>
+            <li>Digital Marketing for Job Seekers</li>
+        </ul>
+    </section>
+</body>
+</html>
