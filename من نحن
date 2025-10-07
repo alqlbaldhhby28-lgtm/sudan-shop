@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>من نحن | About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="glass">
+        <h1 class="ar">من نحن</h1>
+        <h1 class="en">About Us</h1>
+        <nav>
+            <a href="index.html" class="ar">الرئيسية</a>
+            <a href="about.html" class="ar">من نحن</a>
+            <a href="courses.html" class="ar">الدورات</a>
+            <a href="articles.html" class="ar">المقالات</a>
+            <a href="login.html" class="ar">تسجيل / دخول</a>
+            <a href="contact.html" class="ar">تواصل معنا</a>
+
+            <a href="index.html" class="en">Home</a>
+            <a href="about.html" class="en">About Us</a>
+            <a href="courses.html" class="en">Courses</a>
+            <a href="articles.html" class="en">Articles</a>
+            <a href="login.html" class="en">Login</a>
+            <a href="contact.html" class="en">Contact</a>
+        </nav>
+        <button onclick="switchLanguage('ar')">العربية</button>
+        <button onclick="switchLanguage('en')">English</button>
+    </header>
+
+    <section class="glass">
+        <h2 class="ar">رؤيتنا ومهمتنا</h2>
+        <h2 class="en">Our Vision & Mission</h2>
+        <p class="ar">نسعى لتمكين الباحثين عن العمل من خلال تقديم محتوى تعليمي عالي الجودة وأدوات عملية لتطوير مهاراتهم.</p>
+        <p class="en">We aim to empower job seekers by providing high-quality educational content and practical tools to enhance their skills.</p>
+    </section>
+
+    <section class="glass">
+        <h2 class="ar">فريقنا</h2>
+        <h2 class="en">Our Team</h2>
+        <p class="ar">يتكون فريقنا من خبراء في التعليم والتوظيف يعملون على تقديم أفضل الخبرات لك.</p>
+        <p class="en">Our team consists of education and employment experts working to deliver the best experience for you.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
